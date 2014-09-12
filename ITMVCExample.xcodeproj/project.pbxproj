@@ -21,6 +21,8 @@
 		8F1C437519C3A87B00EA211A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1C435719C3A87B00EA211A /* UIKit.framework */; };
 		8F1C437D19C3A87B00EA211A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F1C437B19C3A87B00EA211A /* InfoPlist.strings */; };
 		8F1C437F19C3A87B00EA211A /* ITMVCExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C437E19C3A87B00EA211A /* ITMVCExampleTests.m */; };
+		8F1C438A19C3A9C800EA211A /* ITTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C438919C3A9C800EA211A /* ITTestCell.m */; };
+		8F1C438D19C3ACBA00EA211A /* ITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C438C19C3ACBA00EA211A /* ITTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		8F1C437A19C3A87B00EA211A /* ITMVCExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITMVCExampleTests-Info.plist"; sourceTree = "<group>"; };
 		8F1C437C19C3A87B00EA211A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F1C437E19C3A87B00EA211A /* ITMVCExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITMVCExampleTests.m; sourceTree = "<group>"; };
+		8F1C438819C3A9C800EA211A /* ITTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTestCell.h; sourceTree = "<group>"; };
+		8F1C438919C3A9C800EA211A /* ITTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTestCell.m; sourceTree = "<group>"; };
+		8F1C438B19C3ACBA00EA211A /* ITTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTask.h; sourceTree = "<group>"; };
+		8F1C438C19C3ACBA00EA211A /* ITTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				8F1C436919C3A87B00EA211A /* ITViewController.m */,
 				8F1C436B19C3A87B00EA211A /* Images.xcassets */,
 				8F1C435A19C3A87B00EA211A /* Supporting Files */,
+				8F1C438819C3A9C800EA211A /* ITTestCell.h */,
+				8F1C438919C3A9C800EA211A /* ITTestCell.m */,
+				8F1C438B19C3ACBA00EA211A /* ITTask.h */,
+				8F1C438C19C3ACBA00EA211A /* ITTask.m */,
 			);
 			path = ITMVCExample;
 			sourceTree = "<group>";
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1C438A19C3A9C800EA211A /* ITTestCell.m in Sources */,
 				8F1C436019C3A87B00EA211A /* main.m in Sources */,
+				8F1C438D19C3ACBA00EA211A /* ITTask.m in Sources */,
 				8F1C436419C3A87B00EA211A /* ITAppDelegate.m in Sources */,
 				8F1C436A19C3A87B00EA211A /* ITViewController.m in Sources */,
 			);
